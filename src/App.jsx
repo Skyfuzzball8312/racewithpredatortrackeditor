@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from 'react';
 import './App.css';
 
 const SURFACES = ['Asphalt', 'Dirt', 'Gravel', 'Sand', 'Snow', 'Ice'];
-const CORNERS = ['High speed', 'Medium Speed', 'Low Speed'];
+const CORNERS = ['High speed', 'Medium Speed', 'Low Speed', 'Straight'];
 
 function uid() {
   return Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
